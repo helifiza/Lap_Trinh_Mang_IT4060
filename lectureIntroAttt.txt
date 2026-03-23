@@ -1,0 +1,8 @@
+feistel là một cấu trúc mã hóa đối xứng xử lý dữ liệu theo khối có kích thước cố định. Vì tính đơn giản, hiệu quả và khả năng nghịch đảo dễ dàng. Vậy nên đây là 1 trong những thiết kế mã hóa phổ biến nhất
+đặc điểm nổi bật của FS: khả năng nghịch đảo, khôg phụ thuộc vào hàm tính chất của hàm F. Điều này cho phép sử dụng cùng 1 cấu trúc hàm F cho cả mã hóa và giải mã, chỉ cần đảo thứ tự của khóa con. 
+khả năng nghịch đảo mà không cần nghịch đảo hàm vòng F có ý nghĩa:
+ - thiết kế đơn giản: sử dụng cùng 1 cấu trúc hàm F cho cả mã hóa và giải mã
+ - hiệu quả về mặt triển khai: không cần triển khai 2 thuật toán riêng biệt cho mã hóa và giải mã
+ - linh hoạt trong thiết kế hàm F
+ - tiết kiệm tài nguyên
+=> các thiết kế các mật mã đối xứng đời đầu (DES) dựa trên việc áp dung FS
