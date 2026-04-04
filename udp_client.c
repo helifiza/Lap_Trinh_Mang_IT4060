@@ -13,7 +13,7 @@ int main(int argc, char * argv[]){
         printf("Cach dung: %s <IP> <Port>\n", argv[0]);
         return 1;
     }
-    
+
     WSADATA wsa;
     if (WSAStartup(MAKEWORD(2,2), &wsa) != 0) {
         printf("Failed. Error Code : %d", WSAGetLastError());
